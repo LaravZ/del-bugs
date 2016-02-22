@@ -22,13 +22,13 @@ body.overlay {
   border-bottom: 1px solid #ffffff;
 }
 #header {
-  background-color: #646363;
-  background-image: -moz-linear-gradient(top, #262626 0%, #646363 100%);
-  background-image: -ms-linear-gradient(top, #262626 0%, #646363 100%);
-  background-image: -o-linear-gradient(top, #262626 0%, #646363 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #262626), color-stop(1, #646363));
-  background-image: -webkit-linear-gradient(top, #262626 0%, #646363 100%);
-  background-image: linear-gradient(top, #262626 0%, #646363 100%);
+  background-color: #342D35;
+  background-image: -moz-linear-gradient(top, #262626 0%, #342D35 100%);
+  background-image: -ms-linear-gradient(top, #262626 0%, #342D35 100%);
+  background-image: -o-linear-gradient(top, #262626 0%, #342D35 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #262626), color-stop(1, #342D35));
+  background-image: -webkit-linear-gradient(top, #262626 0%, #342D35 100%);
+  background-image: linear-gradient(top, #262626 0%, #342D35 100%);
 }
 a {
   color: #0071B3;
@@ -46,7 +46,7 @@ a:active {
 }
 #page-wrapper,
 #footer-wrapper {
-  background: #292929;
+  background: #342D35;
 }
 .region-header,
 .region-header a,

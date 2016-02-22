@@ -856,8 +856,8 @@ ul.links {
 }
 #footer-wrapper .block {
   margin: 20px 0;
-  border: 1px solid #444;
-  border-color: rgba(255, 255, 255, 0.1);
+  /*border: 1px solid #444;
+  border-color: rgba(255, 255, 255, 0.1);*/
   padding: 10px;
 }
 #footer-columns .block-menu,
@@ -877,12 +877,13 @@ ul.links {
   margin: 0;
 }
 #footer-columns h2 {
-  border-bottom: 1px solid #555;
-  border-color: rgba(255, 255, 255, 0.15);
+  /*border-bottom: 1px solid #555;*/
+  /*border-color: rgba(255, 255, 255, 0.15);*/
   font-size: 1em;
   margin-bottom: 0;
   padding-bottom: 3px;
   text-transform: uppercase;
+  display: none;
 }
 #footer-columns .content {
   margin-top: 0;
@@ -952,6 +953,9 @@ ul.links {
 #footer-wrapper tr.even {
   background-color: #2c2c2c;
   background-color: rgba(0, 0, 0, 0.15);
+}
+#footer-message .block .title h2 {
+  display: none;
 }
 
 /* --------------- System Tabs  --------------- */
