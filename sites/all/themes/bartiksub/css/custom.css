@@ -8,3 +8,20 @@ and open the template in the editor.
     Author     : lzu10420
 */
 
+
+div.uitverkocht-field-class,
+h1.title
+{
+  font-family: 'Lobster Two',Georgia,"Times New Roman",Times,serif;
+    font-size: 2.5em;
+}
+
+h3.location-locations-header
+{
+    display:none;
+}
+
+div.adr
+{
+    color: #e8554e
+}
