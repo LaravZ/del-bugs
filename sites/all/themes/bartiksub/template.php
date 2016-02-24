@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="css/style" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fanwood+Text" />
 <?php
 
 /**

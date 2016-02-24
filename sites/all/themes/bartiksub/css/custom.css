@@ -23,5 +23,10 @@ h3.location-locations-header
 
 div.adr
 {
-    color: #e8554e
+    color: #e8554e;
+}
+
+div.view-content
+{
+    font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;
 }

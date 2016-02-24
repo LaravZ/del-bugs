@@ -54,7 +54,7 @@ samp,
 var {
   padding: 0 0.4em;
   font-size: 0.857em;
-  font-family: Menlo, Consolas, "Andale Mono", "Lucida Console", "Nimbus Mono L", "DejaVu Sans Mono", monospace, "Courier New";
+  font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;/*Menlo, Consolas, "Andale Mono", "Lucida Console", "Nimbus Mono L", "DejaVu Sans Mono", monospace, "Courier New";*/
 }
 code {
   background-color: #f2f2f2;
@@ -106,7 +106,7 @@ body,
 #site-slogan,
 .ui-widget,
 .comment-form label {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;
 }
 
 #header,
@@ -122,13 +122,13 @@ div.meta,
 p.comment-time,
 table,
 .breadcrumb {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;/*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 input,
 textarea,
 select,
 a.button {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;/*"Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;*/
 }
 
 /* ------------------ Reset Styles ------------------ */
@@ -465,47 +465,55 @@ h1#site-name {
 
 #main-menu {
   clear: both;
+  border:5px green;
 }
 #main-menu-links {
-  font-size: 0.929em;
+  font-size: 1.2em;
   margin: 0;
   padding: 0 15px;
+  background: #FFF;
+  width: 100%;
 }
+
 #main-menu-links li {
   float: left; /* LTR */
   list-style: none;
-  padding: 0 1px;
-  margin: 0 1px;
+  padding: 0 0px;
+  margin: 0 0px;
 }
 #main-menu-links a {
   color: #333;
   background: #ccc;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.1);
   float: left; /* LTR */
   height: 2.4em;
   line-height: 2.4em;
-  padding: 0 0.8em;
+  padding: 0.5em 1.5em 0.5em 1.5em;
   text-decoration: none;
-  text-shadow: 0 1px #eee;
-  -khtml-border-radius-topleft: 8px;
-  -khtml-border-radius-topright: 8px;
-  -moz-border-radius-topleft: 8px;
-  -moz-border-radius-topright: 8px;
-  -webkit-border-top-left-radius: 8px;
-  -webkit-border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  /*text-shadow: 0 1px #eee;*/
+  -khtml-border-radius-topleft: 0px;
+  -khtml-border-radius-topright: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 #main-menu-links a:hover,
 #main-menu-links a:focus {
   background: #f6f6f2;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(0, 0, 0, 0.1);
+  color: #e8554e;
 }
 #main-menu-links a:active {
+  color: #e8554e;
   background: #b3b3b3;
   background: rgba(255, 255, 255, 1);
+
 }
 #main-menu-links li a.active {
+      color: #e8554e;
   border-bottom: none;
 }
 .featured #main-menu-links li a:active,
@@ -963,7 +971,7 @@ ul.links {
 /* --------------- System Tabs  --------------- */
 
 .tabs {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;/*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
   margin-bottom: 20px;
 }
 .tabs ul.primary {
@@ -1186,7 +1194,7 @@ fieldset legend {
   display: block;
   height: 2em;
   left: -1px; /* LTR */
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;/*"Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;*/
   line-height: 2;
   padding: 0;
   position: absolute;
