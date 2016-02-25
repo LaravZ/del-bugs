@@ -236,13 +236,13 @@ table ul.links li {
   font-size: small !important;
 }
 ul.contextual-links {
-  font-size: 0.923em;
+  font-size: 1em;
 }
 .contextual-links-wrapper a {
   text-shadow: 0 0 0 !important;
 }
 .item-list .pager {
-  font-size: 0.929em;
+  font-size: 1em;
 }
 ul.menu li {
   margin: 0;
@@ -526,7 +526,7 @@ h1#site-name {
 
 #secondary-menu-links {
   float: right; /* LTR */
-  font-size: 0.929em;
+  font-size: 1em;
   margin: 10px 10px 0;
 }
 #secondary-menu-links a:hover,
@@ -604,7 +604,7 @@ h1#page-title {
   padding-top: 0.5em;
 }
 .node-teaser h2 a {
-  color: #181818;
+  color: #666;
 }
 .node-teaser {
   border-bottom: 1px solid #d3d7d9;
@@ -721,7 +721,7 @@ ul.links {
   font-size: 0.786em;
 }
 .comment .content {
-  font-size: 0.929em;
+  font-size: 1em;
   line-height: 1.6;
 }
 .comment .comment-arrow {
@@ -779,7 +779,7 @@ ul.links {
   line-height: 1.2;
 }
 .sidebar .block .content {
-  font-size: 0.914em;
+  font-size: 1em;/*0.914em;*/
   line-height: 1.4;
 }
 .sidebar tbody {
@@ -996,7 +996,7 @@ ul.links {
   height: 1.8em;
   line-height: 1.9;
   display: block;
-  font-size: 0.929em;
+  font-size: 1em;/*0.929em;*/
   float: left; /* not LTR */
   padding: 0 10px 3px;
   margin: 0;
@@ -1070,7 +1070,7 @@ div.messages {
 /* -------------- Breadcrumbs   -------------- */
 
 .breadcrumb {
-  font-size: 0.929em;
+  font-size: 1em;
 }
 
 /* -------------- User Profile   -------------- */
@@ -1113,7 +1113,7 @@ a.button {
   border-right-color: #d2d2d2;
   color: #3a3a3a;
   cursor: pointer;
-  font-size: 0.929em;
+  font-size: 1em;
   font-weight: normal;
   text-align: center;
   margin-bottom: 1em;
@@ -1241,7 +1241,7 @@ input {
 }
 input,
 textarea {
-  font-size: 0.929em;
+  font-size: 1em;
 }
 textarea {
   line-height: 1.5;
@@ -1267,7 +1267,7 @@ input.form-submit:focus {
   margin-top: 2px;
 }
 .form-item label {
-  font-size: 0.929em;
+  font-size: 1em;
 }
 .form-type-radio label,
 .form-type-checkbox label {
@@ -1348,7 +1348,7 @@ input.form-button-disabled:active,
 /* Comment form */
 .comment-form label {
   float: left; /* LTR */
-  font-size: 0.929em;
+  font-size: 1em;
   width: 120px;
 }
 .comment-form input,
@@ -1636,7 +1636,7 @@ div.admin-panel .description {
   margin-right: 2.25em;
 }
 .poll .total {
-  font-size: 0.929em;
+  font-size: 1em;
   font-style: italic;
   text-align: right; /* LTR */
   clear: both;

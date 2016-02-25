@@ -3,7 +3,12 @@
 
 body,
 body.overlay {
-  color: #3b3b3b;
+  color: #888;/*#3b3b3b;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.357em;
+    color: #666;
 }
 .comment .comment-arrow {
   border-color: #ffffff;

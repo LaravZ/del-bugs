@@ -30,3 +30,37 @@ div.view-content
 {
     font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;
 }
+
+div.highcharts-container
+{
+    font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;
+}
+
+element.style {
+    font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: white;
+}
+
+g.highcharts-legend-item text[style],
+g.highcharts-data-labels text[style] {
+    font-family: 'Fanwood Text',Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em !important;
+    color: #888 !important;
+    font-weight: normal !important;
+}
+
+div.block-views h2 {
+      font-family: 'Lobster Two',Georgia,"Times New Roman",Times,serif;
+          font-size: 2.5em;
+}
+
+/*html|* > svg {
+    transform-origin: 50% 50% 0px;
+}*/
+/*svg:not(:root), symbol, image, marker, pattern, foreignObject {
+    overflow: hidden;
+}*/
+/* * {
+    transform-origin: 0px 0px 0px;
+}*/
